@@ -7,7 +7,10 @@ function palindrome(kata) {
     }
 
     console.log(temp.toLowerCase() === kata.toLowerCase())
+    console.log(temp)
+    console.log(kata)
 }
+
 //-------------------------------------------- CHECK ONE BY ONE -----------------------------------------------------------
 // palindrome("Radar");
 // palindrome("Malam");
@@ -61,7 +64,7 @@ function reverseText(txt) {
     arrTemp2.forEach((part) => console.log(part.join("")))
 }
 
-// reverseText(str)
+reverseText(str)
 
 // FIBONACCI
 let data = [15, 1, 3]
@@ -91,6 +94,6 @@ function fizzbuzz(nums){
 //-------------------------------------------- CHECK ONE BY ONE -----------------------------------------------------------
 // fizzbuzz(3)
 // fizzbuzz(5)
-fizzbuzz(15)
+// fizzbuzz(15)
 
 
